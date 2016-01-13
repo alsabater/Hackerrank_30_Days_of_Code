@@ -18,7 +18,7 @@ def convertBinary(n)
 	  i+=1
 	  e=e/2
 	end
-end
+  end
   puts bin.reverse
 end
 
