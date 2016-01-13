@@ -5,7 +5,7 @@ def convertBinary(n)
   e = n
   i = 0
   while num!=n do
-    if e%2===0
+	if e%2===0
 	  bin = bin + "0"
 	  x = 0
 	  num += x*(2**(i))
@@ -14,7 +14,7 @@ def convertBinary(n)
 	elsif e%2===1
 	  bin = bin + "1"
 	  x = 1
- 	  num +=x*(2**(i))
+	  num +=x*(2**(i))
 	  i+=1
 	  e=e/2
 	end
